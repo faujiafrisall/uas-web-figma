@@ -1,0 +1,96 @@
+.name-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.name-card .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.name-card .group {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  top: 141px;
+  left: 1125px;
+}
+
+.name-card .ellipse {
+  position: absolute;
+  width: 754px;
+  height: 754px;
+  top: -34px;
+  left: -36px;
+  object-fit: cover;
+}
+
+.name-card .group-wrapper {
+  position: absolute;
+  width: 967px;
+  height: 872px;
+  top: -15px;
+  left: 61px;
+}
+
+.name-card .group-2 {
+  position: relative;
+  width: 971px;
+  height: 872px;
+}
+
+.name-card .hi-i-m-fauji-afrisal {
+  position: absolute;
+  width: 939px;
+  top: 0;
+  left: 12px;
+  background: linear-gradient(
+    180deg,
+    rgb(171.06, 77.63, 9.98) 1.56%,
+    rgb(142.71, 73.18, 93.22) 59.89%,
+    rgb(142.71, 73.18, 93.22) 59.9%,
+    rgb(125.25, 70.44, 144.5) 95.83%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 114px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.name-card .ABOUT-ME-kenalin {
+  position: absolute;
+  width: 967px;
+  top: 358px;
+  left: 0;
+  font-family: "Poppins-ExtraBoldItalic", Helvetica;
+  font-weight: 800;
+  font-style: italic;
+  color: #2f365a;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.name-card .text-wrapper {
+  position: absolute;
+  top: 839px;
+  left: 1272px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #443748;
+  font-size: 33px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
